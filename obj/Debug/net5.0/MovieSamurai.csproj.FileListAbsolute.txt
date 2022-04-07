@@ -1,0 +1,78 @@
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\appsettings.json
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.exe
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.deps.json
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.runtimeconfig.json
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.runtimeconfig.dev.json
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.dll
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\ref\MovieSamurai.dll
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.pdb
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.Views.dll
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.Views.pdb
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.csproj.AssemblyReference.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.AssemblyInfoInputs.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.AssemblyInfo.cs
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.csproj.CoreCompileInputs.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.RazorAssemblyInfo.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.RazorAssemblyInfo.cs
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\staticwebassets\MovieSamurai.StaticWebAssets.Manifest.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\staticwebassets\MovieSamurai.StaticWebAssets.xml
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\scopedcss\bundle\MovieSamurai.styles.css
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.TagHelpers.input.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.TagHelpers.output.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.RazorCoreGenerate.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.RazorTargetAssemblyInfo.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.RazorTargetAssemblyInfo.cs
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.Views.pdb
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.dll
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\ref\MovieSamurai.dll
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.pdb
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.genruntimeconfig.cache
+C:\Users\ZZ ON A WAV\Desktop\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.csproj.CopyComplete
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\appsettings.json
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.exe
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.deps.json
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.runtimeconfig.json
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.runtimeconfig.dev.json
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.dll
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\ref\MovieSamurai.dll
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.pdb
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.Views.dll
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\MovieSamurai.Views.pdb
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.csproj.AssemblyReference.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.AssemblyInfoInputs.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.AssemblyInfo.cs
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.csproj.CoreCompileInputs.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.RazorAssemblyInfo.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.RazorAssemblyInfo.cs
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\staticwebassets\MovieSamurai.StaticWebAssets.Manifest.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\staticwebassets\MovieSamurai.StaticWebAssets.xml
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\scopedcss\bundle\MovieSamurai.styles.css
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.TagHelpers.input.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.TagHelpers.output.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.RazorCoreGenerate.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.RazorTargetAssemblyInfo.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.RazorTargetAssemblyInfo.cs
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.Views.pdb
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.dll
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\ref\MovieSamurai.dll
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.pdb
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.genruntimeconfig.cache
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\MovieSamurai.csproj.CopyComplete
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\obj\Debug\net5.0\Razor\Pages\Actor.cshtml.g.cs
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\RestSharp.dll
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ZZ ON A WAV\OneDrive - triOS College\C#\personalProject\MovieSamurai\bin\Debug\net5.0\PexelsDotNetSDK.dll

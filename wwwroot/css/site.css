@@ -1,0 +1,290 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500;900&display=swap');
+
+*,html {
+     box-sizing: border-box;
+     padding: 0%;
+     margin: 0%;
+}
+body {
+    background-color: rgb(82, 82, 82);
+}
+
+/* _layout */
+
+#header {
+    width: 100%;
+    height: 150px;
+    background-image: url(../assets/images/MovieSamuraiBanner.png);
+    border: 3px solid;
+} 
+    #tmdbLink {
+        background-image: url(../assets/images/poweredByTMDB.png);
+        height: 57px;
+        width: 136px;
+        z-index: 3;
+        background-size: contain;
+        float: right;
+        margin-top: 3%;
+        margin-right: 3%;
+    }
+    #tmdbLink:hover, #tmdbLink:focus {
+        background-color: rgba(19, 224, 231, 0.521);
+        border-radius: 5px;
+    }
+
+/* Index */
+
+#searchForm {
+    text-align: center;
+    padding-top: 40px;
+}
+#searchBox {
+    font-size: 1.5rem;
+    border: 3px solid #000;
+    border-radius: 5px;
+    background-image: url(../assets/images/magnifyingGlass.png);
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 45px;
+    width: 300px;
+}
+#searchBox:focus, #searchBox:hover {
+    background-color: rgba(15, 236, 217, 0.089);
+    border: 2px dotted #fff ;
+}
+#upcomming {
+    width: 100%;
+    text-align: center; /* center thumbs */
+    margin: auto;
+    padding: 2% 2%;
+}
+#posters {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; /* center thumbs */
+    margin-top: 40px;
+}
+#movieStats {
+    min-height: 155px;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 1.1rem;
+    font-family: 'Urbanist', sans-serif;
+    padding: 1% 0;
+}
+#movieStats > h2 { 
+    text-decoration: overline; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#movieStats > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;    
+}
+#movieStats > a:hover {
+    color: rgb(34, 208, 252);
+    text-shadow: -2px -2px -2px rgb(92, 245, 194);
+}
+.thumb {
+    display: inline-block;
+    border-radius: 5px;
+    border: 3px solid #000;
+    cursor: pointer;
+    margin: 3px 3px;
+}
+.thumbButton {
+    width: 188px;
+    height: 281px;
+    cursor: pointer;
+    opacity: 0;
+}
+#details {
+    padding: 2% 1%;
+    color: #fff;
+    text-shadow: -1px -1px  #000;
+}
+#opacityLayer {
+    margin: auto;
+    width: 97%;
+    height: 97%;
+    background-color: rgba(14, 13, 13, 0.863);
+    height: 575px;
+    border-radius: 20px;
+    border: #FFF 3px solid;
+    padding: 3% 3%;
+}
+    #youtubeVideo {
+        float: right;
+        margin: 40px 6%;
+    }
+    #poster {
+        float: left;
+        height: 248px;
+        width: 165px;
+        margin-right: 2%;
+        margin-bottom: 3%;
+        border: 2px solid #fff;
+
+    }
+    #castSlider {
+        white-space: nowrap;
+        height: 215px;
+        width: 58%;
+        overflow: auto;
+        border: 2px solid #fff;
+    }
+.castContainer {
+    width: 160px;
+    height: 200px;
+    background-color: rgba(31, 7, 7, 0.534);
+    display: inline-block;
+    text-align: center;
+}
+    .castPic {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin-left: 5px;
+        border: 3px solid #FFF;
+    }
+        .castButton {
+            height: 200px;
+            width: 145px;
+            opacity: 0;
+            cursor: pointer;
+        }
+    .castName {
+        margin-top: 10px;
+        padding-top: 7px;
+        border-top: 3px solid #fff;
+        font-weight: 800; 
+        font-size: 0.9rem;
+        color: #fff;
+        text-shadow: -1px -1px #666;
+    }
+
+ /* actor page */  
+
+#actorImage {
+    float: left;   
+    margin-left: 2%;
+    margin-right: 10%;
+}
+#actorImage > img {
+    width: 250px;
+    height: 375px;
+    border: 3px solid #000;
+    margin-top: 11%;
+}
+#actorInfo {
+    min-height: 400px;
+    margin-top: 2%;
+    padding-left: 1%;
+    width: 95%; 
+    margin-left: 2%;
+    color: #fff;
+    text-shadow: -1px -1px #000;
+    font-family: 'Urbanist', sans-serif;
+}
+    #actorInfo > h1 {
+        font-size: 2.5rem;
+        font-weight: 800; 
+    }
+    #actorInfo > h3 {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-decoration:overline;
+        font-family: 400;
+    }
+    #actorInfo > p {
+        text-indent: 2%;
+        font-size: 1.2rem;
+        margin-right: 2%;
+    }
+#homeLink {
+    z-index: 6;
+    float: right;
+    position: absolute; 
+    top: 105px;
+    right: 10px;
+    margin-right: 5%;
+    text-decoration: none;
+    color: #878;
+    font-weight: 800;
+    font-size: 1.4em;
+    text-shadow: 2px 2px 2px #000;
+}
+#homeLink:hover{
+    color: rgb(114, 196, 235);
+}
+#celebrityTweets { 
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.celebrityTweet {
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 3px dotted #777;
+    background-color: rgb(71, 58, 58);
+}
+.tweetImage {
+    height: 75px;
+    width: 75px;
+}
+.tweetTime {
+    color: #000;
+    font-weight: 400;
+}
+.tweetText {
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow: -1px -1px #666;
+    display: inline-block;
+}
+    .tweetLink {
+        font-size: 1.3rem;
+        color: #fff;
+        text-decoration: dotted;
+        text-shadow: -1px -1px #666;
+    }
+    .tweetLink:hover {
+        color: rgb(6, 213, 228); 
+        text-shadow: -1px -1px #000;
+    }
+#actorPhotoGallery {
+    margin-left: 17%;
+    margin-top: 2%;
+    float: left;
+    padding-bottom: 3%;
+    padding-right: 4%;
+}
+    .actorGalleryImg {
+        height: 298px;
+        width: 200px;
+        background-size: contain;
+        border: 3px solid #000;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        float: left;
+        display: inline block;
+    }
+#appearsOnHeader {
+    padding-left: 17%;
+    padding-top: 4%;
+    float: left;
+    font-family: 'Urbanist', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;  
+}
+#postersAppearsOn {
+    float: left;
+    width: 55%;
+    background-color: rgb(71, 58, 58);
+    white-space: nowrap;
+    overflow: auto;
+    border: 3px solid #000;
+    margin: 5% 0% 3% 17%;
+}

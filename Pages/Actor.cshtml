@@ -1,0 +1,105 @@
+@page
+@model ActorModel
+
+@{
+    string url = "https://image.tmdb.org/t/p/w500";
+    string personPic = url + Model.picPath;
+
+}
+
+
+<div id="actorImage">
+    <img id="actorPageHeadshot" src="@personPic" alt="@Model.name">
+</div>
+@{
+    string birthYear =  @Model.birthday.Substring(0, 4);
+    int birthYearInt = Convert.ToInt16(birthYear);
+    int curYear = @Model.currentdate.Year;
+
+    int actorAge = curYear - birthYearInt;
+}
+@if(@Model.deathday != null) { // re assign value of age based on death day not currrent date if actor dead
+    string deathYear = Model.deathday.Substring(0, 4);
+    int deathYearInt = Convert.ToInt16(deathYear);
+
+    int deadActorAge = @deathYearInt - @birthYearInt;
+    
+    <div id="actorInfo">
+        <h1>@Model.name (@deadActorAge)</h1>
+        <h3>Born: @Model.birthday | @Model.birthplace</h3>
+        <h3>Died: @Model.deathday</h3>
+        <p>@Model.bio</p>
+    </div>
+}
+else { // do not display Deathdate
+
+    <div id="actorInfo">
+        <h1>@Model.name (@actorAge)</h1>
+        <h3>Born: @Model.birthday | @Model.birthplace</h3>
+        <p>@Model.bio</p>
+    </div>
+    
+}
+
+<a asp-page="/Index" id="homeLink">Home</a>
+
+@if(Model.twitterID != null) {
+    
+    <div id="celebrityTweets">
+        @for( int i = 0; i < Model.tweetTimes.Count(); i++) {
+            <div class="celebrityTweet">
+                <img class="tweetImage" src="../assets/images/twitterBlue.png" alt="tweet">
+                <div class="tweet">
+                    <p class="tweetTime">@Model.tweetTimes[i].ToString("F")</p>
+                    
+                    @{   
+                        string link = "";
+                        string body = "";
+                        string tweetText = @Model.tweetText[i];
+                        int start = tweetText.IndexOf("https://");
+                    }    
+
+                    @if(start >= 0) {
+                        body = @tweetText.Substring(0 , @start);
+                        link = @tweetText.Substring(@start, @tweetText.Length - @start);
+                        <p class="tweetText">@body  </p><a class="tweetLink" href="@link" target="_blank" title="@link">  @link</a>
+                    }
+                    else {
+                        <p class="tweetText">@tweetText</p>
+                    }
+                    
+                </div>
+            </div>
+        } <!-- for iterator -->
+    </div> <!-- celeb tweets -->
+} <!-- if twitterID != null -->
+
+
+<div id="actorPhotoGallery">
+    @for( int i = 0; i < @Model.MAX_ACTOR_IMAGES; i++) {
+        string galleryPath = url + @Model.photoGalleryUrl[i];
+        string galleryPathHeight = @Model.photoGalleryHeight[i] + "px";
+        string galleryPathWidth = @Model.photoGalleryWidth[i] + "px";
+        
+        <div class="actorGalleryImg"  style="background-image: url(@galleryPath);">
+        </div>
+    }
+</div>
+
+@if(Model.appearsOnMovieIDs != null) {
+    <h1 id="appearsOnHeader">Also Appears On..</h1>
+    <div id="postersAppearsOn">
+        <form method="POST" asp-page-handler="ShowMovie">
+            @for(int i = 0; i < Model.ACTOR_APPEARSON_MAX_RESULTS; i++) {
+                    string appearsOnPoster = "https://image.tmdb.org/t/p/w500/" + Model.posterPaths[i];
+                    <div class="thumb" style="background : url(@appearsOnPoster); background-size: 100%;"
+                        title="@Model.overviews[i]">
+                        <input type="submit" class="thumbButton" name="movieID" value="@Model.appearsOnMovieIDs[i]"/> <!-- // name must match parameters in page handler-->
+                    </div>
+            }
+        </form>
+    </div>
+}
+else {
+    <!-- do nothing -->
+}

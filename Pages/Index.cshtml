@@ -1,0 +1,92 @@
+﻿@page
+@model IndexModel
+
+@{
+    string path = "https://image.tmdb.org/t/p/w500";
+    string backdropUrl = "https://image.tmdb.org/t/p/w1920_and_h800_multi_faces" +
+        Model.backdropPath;
+    string posterPath = path + Model.posterPath;
+}
+
+<form id="searchForm" method="POST" asp-page-handler="Search"> <!-- page handler to match method name (excluding OnPost) -->
+    <input id="searchBox" type="text" name="search" placeholder="movie search..."> <!-- name needs to match argument name of OnPostSearch -->
+</form>
+
+<div id="upcomming">
+    <form method="POST" asp-page-handler ="GetDetails">
+        @for(int i = 0; i < Model.UPCOMMING_MAX_RESULTS; i++) {
+                if(Model.posterURLs[i] != null){
+                    String poster_path = path + Model.posterURLs[i];
+                    <div class="thumb" style="background : url(@poster_path); background-size: 100%;"
+                        title="@Model.overviews[i]">
+                        <input type="submit" class="thumbButton" name="movieID" value="@Model.movieIDs[i]"/> <!-- // name must match parameters in page handler-->
+                    </div>
+                }
+                else{
+                    // do nothing
+                }
+        }
+    </form>
+
+<div id="posters">
+    <form method="POST" asp-page-handler ="GetDetails">
+        @for(int i = 0; i < Model.MAX_RESULTS; i++) {
+            if(Model.posterURLs[i] != null){
+                String poster_path = path + Model.posterURLs[i];
+                <div class="thumb" style="background : url(@poster_path); background-size: 100%;"
+                    title="@Model.overviews[i]">
+                    <input type="submit" class="thumbButton" name="movieID" value="@Model.movieIDs[i]"/> <!-- // name must match parameters in page handler-->
+                </div>
+            }
+            else{
+                    // do nothing
+            }
+            
+        } 
+    </form>
+</div>
+
+@if(Model.movieTitle != "") { 
+    <div id="details" style="background: url(@backdropUrl);
+        background-size: cover;">
+        <div id="opacityLayer">
+            <img id="poster" src="@posterPath" alt="MoviePoster">
+            <div id="movieStats">
+                <h1>@Model.movieTitle (@Model.releaseDate)</h1>
+                <h2>@Model.tagline</h2>
+                <a href="@Model.homepage" target="_blank">Official Website</a>
+                <p>@Model.overview</p>
+                <p>Revenue: @string.Format("{0:C}",Model.revenue)</p>
+                <p>Budget: @string.Format("{0:C}",Model.budget)</p>
+            </div>
+            <div id=video>
+                @if(Model.videoKey.Count() > 0 ) {
+                    @for( int i = 0; i < Model.VIDEO_MAX_RESULTS; i ++) {
+                        string videoPath = "https://www.youtube.com/embed/" + @Model.videoKey[i];
+                        <iframe id="youtubeVideo"
+                            src=@videoPath
+                            title="Youtube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                            allowfullscreen>
+                        </iframe> 
+                    }   
+                }
+            </div>
+            
+            <div id="castSlider">
+                <form method="POST" asp-page-handler="GetActorDetails">
+                    @for( int i = 0; i < Model.CAST_MAX_RESULTS; i++ ) {
+                        string castPic = path + Model.castPics[i];
+                        <div class="castContainer">
+                            <div class="castPic" style="background: url(@castPic); 
+                            background-size: 100%;">
+                                <input type="submit" class="castButton" name="castID" value="@Model.castIds[i]"/>
+                            </div>
+                            <p class="castName">@Model.castNames[i]</p>
+                        </div>
+                    }   
+                </form>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ZZ ON A WAV\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ZZ ON A WAV\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ]
+  }
+}

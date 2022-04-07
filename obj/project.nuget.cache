@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pY7UVhLq759SKwUnVtW9PMmfH1EDxuGQGMWmMpzCM5rCbc63sJ+Vp2Wtrm77pPSQAdyALH66NkRto2l5rfbwKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ZZ ON A WAV\\OneDrive - triOS College\\C#\\personalProject\\MovieSamurai\\MovieSamurai.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZZ ON A WAV\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ZZ ON A WAV\\.nuget\\packages\\pexelsdotnetsdk\\1.0.8\\pexelsdotnetsdk.1.0.8.nupkg.sha512",
+    "C:\\Users\\ZZ ON A WAV\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
